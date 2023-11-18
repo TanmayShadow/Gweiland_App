@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="30dp"
+    android:layout_marginTop="10dp"
+    app:cardCornerRadius="0dp">
+
+<!--    <androidx.constraintlayout.widget.ConstraintLayout-->
+<!--        android:id="@+id/cardViewConstraintLayout"-->
+<!--        android:layout_width="400dp"-->
+<!--        android:layout_height="match_parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/currencyLogo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/sample_logo"-->
+<!--            app:layout_constraintStart_toStartOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/cardViewLinerLayout"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/currencyLogo"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="5dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyShortName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="ETH"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Etherium"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="#800B0B0B"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/currencyChange"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/negative"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/cardViewLinerLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/cardViewLinerLayout2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="right"-->
+<!--            app:layout_constraintRight_toRightOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="5dp"-->
+<!--            android:layout_marginEnd="25dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyPrice"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="$3,800 USD"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyPercentage"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="-3.2%"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="#FF0000"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </androidx.constraintlayout.widget.ConstraintLayout>-->
+<!--    <LinearLayout-->
+<!--        android:id="@+id/cardViewConstraintLayout"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginBottom="20dp">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/currencyLogo"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/sample_logo"-->
+<!--            app:layout_constraintStart_toStartOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:id="@+id/cardViewLinerLayout"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/currencyLogo"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="10dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyShortName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="ETH"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyName"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Etherium"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="#800B0B0B"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/currencyChange"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:src="@drawable/negative"-->
+<!--            app:layout_constraintLeft_toRightOf="@id/cardViewLinerLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            />-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_gravity="right"-->
+<!--            android:id="@+id/cardViewLinerLayout2"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:gravity="right"-->
+<!--            app:layout_constraintRight_toRightOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintTop_toTopOf="@id/cardViewConstraintLayout"-->
+<!--            app:layout_constraintBottom_toBottomOf="@id/cardViewConstraintLayout"-->
+<!--            android:layout_marginLeft="50dp">-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyPrice"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="$3,800 USD"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="20sp"-->
+<!--                android:textStyle="bold"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/currencyPercentage"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="-3.2%"-->
+<!--                android:fontFamily="@font/inter_medium"-->
+<!--                android:textSize="12sp"-->
+<!--                android:textColor="#FF0000"-->
+<!--                />-->
+
+<!--        </LinearLayout>-->
+
+
+
+<!--    </LinearLayout>-->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/my_constraint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:id="@+id/currencyLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sample_logo"
+            app:layout_constraintStart_toStartOf="@id/my_constraint"
+            app:layout_constraintTop_toTopOf="@id/my_constraint"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="50dp"
+            app:layout_constraintStart_toEndOf="@id/currencyLogo">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/currencyShortName"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="ETH"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+                        <ImageView
+                            android:id="@+id/currencyChange"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/negative"
+                            android:layout_marginLeft="10dp"
+                            />
+
+                            <TextView
+                                android:id="@+id/currencyPrice"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="$3,800 USD"
+                                android:fontFamily="@font/inter_medium"
+                                android:textSize="19sp"
+                                android:textStyle="bold"
+                                android:layout_weight="1"
+                                android:textAlignment="viewEnd"
+                                />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/currencyName"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/inter_medium"
+                    android:text="Etherium"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="#800B0B0B"
+                    android:textSize="12sp" />
+                            <TextView
+                                android:id="@+id/currencyPercentage"
+                                android:layout_width="140dp"
+                                android:layout_height="wrap_content"
+                                android:text="-3.2%"
+                                android:fontFamily="@font/inter_medium"
+                                android:textSize="12sp"
+                                android:textColor="#FF0000"
+                                android:layout_weight="1"
+                                android:textAlignment="viewEnd"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>
