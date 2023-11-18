@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Gweiland App</string>
+    <string name="exchanges">EXCHANGES</string>
+    <string name="notification">notification</string>
+    <string name="searchCryptocurrency">Search Cryptocurrency</string>
+    <string name="filter">Filter</string>
+    <string name="cryptocurrency">Cryptocurrency</string>
+    <string name="nft">NFT</string>
+    <string name="top_cryptocurrency">Top Cryptocurrency</string>
+
+</resources>
